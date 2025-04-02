@@ -1295,17 +1295,22 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: theme.fontWeights.bold,
     color: theme.colors.text,
+    flex: 1,
+    textAlign: 'center',
   },
   timePickerCancelButton: {
     fontSize: 16,
     color: theme.colors.subtext,
     padding: 4,
+    minWidth: 60,
   },
   timePickerSaveButton: {
     fontSize: 16,
     fontWeight: theme.fontWeights.semibold,
     color: theme.colors.primary,
     padding: 4,
+    minWidth: 60,
+    textAlign: 'right',
   },
   timePickerContent: {
     padding: 16,
